@@ -1,0 +1,126 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Profilim";
+    var avatar = "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=500&fit=crop&q=80";
+}
+
+<div class="profile-card">
+    <div class="profile-avatar">
+        <img src="@avatar" alt="Profil Resmi" />
+    </div>
+
+    <h2>@Model.FullName</h2>
+    <p class="description">Harika gidiyorsun, devam et!</p>
+
+    <div class="info-grid">
+        <div class="info-item">
+            <div class="icon-wrapper">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info-content">
+                <strong>Email Adresi</strong>
+                <span>@Model.Email</span>
+            </div>
+        </div>
+
+        <div class="info-item">
+            <div class="icon-wrapper">
+                <i class="fas fa-id-card"></i>
+            </div>
+            <div class="info-content">
+                <strong>Kart Numarası</strong>
+                <span>@Model.CardNumber</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .profile-card {
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(10px);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-heavy);
+            color: white;
+            padding: 3rem;
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .profile-avatar {
+            width: 130px;
+            height: 130px;
+            margin: -90px auto 1.5rem;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid white;
+            box-shadow: var(--shadow-medium);
+        }
+
+            .profile-avatar img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .info-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            margin-top: 2rem;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            padding: 1rem 1.2rem;
+            border-radius: var(--border-radius);
+            background: rgba(255, 255, 255, 0.06);
+            box-shadow: var(--shadow-light);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: var(--transition);
+        }
+
+            .info-item:hover {
+                background: rgba(255, 255, 255, 0.1);
+            }
+
+        .icon-wrapper {
+            width: 48px;
+            height: 48px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+        }
+
+            .icon-wrapper i {
+                color: white;
+                font-size: 1.2rem;
+            }
+
+        .info-content strong {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: #bbbbbb;
+            letter-spacing: 0.5px;
+        }
+
+        .info-content span {
+            font-size: 1.05rem;
+            color: white;
+            font-weight: 500;
+        }
+
+        .description {
+            color: #cccccc;
+            font-size: 1rem;
+            margin-top: 0.5rem;
+        }
+    </style>
+}

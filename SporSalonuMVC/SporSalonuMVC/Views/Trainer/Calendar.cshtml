@@ -1,0 +1,42 @@
+﻿@model List<Class>
+@{
+    ViewData["Title"] = "Eğitmen Takvimi";
+}
+
+<h2>@ViewBag.TrainerName - Takvim</h2>
+
+<div id="calendar"></div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var calendarEl = document.getElementById('calendar');
+
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                headerToolbar: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'dayGridMonth,timeGridWeek,listWeek'
+                },
+                events: [
+        @foreach (var item in Model)
+        {
+            <text>
+                            {
+                                title: '@item.Name',
+                                start: '@item.Schedule.ToString("yyyy-MM-ddTHH:mm:ss")',
+                                description: '@item.Description',
+                            },
+            </text>
+        }
+                ],
+                eventClick: function (info) {
+                    alert(info.event.title + "\n" + info.event.extendedProps.description);
+                }
+            });
+
+            calendar.render();
+        });
+    </script>
+}

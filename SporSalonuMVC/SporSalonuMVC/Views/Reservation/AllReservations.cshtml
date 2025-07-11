@@ -1,0 +1,35 @@
+﻿@model List<Reservation>
+
+<h2>Tüm Rezervasyonlar</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Kullanıcı</th>
+            <th>Email</th>
+            <th>Ders</th>
+            <th>Eğitmen</th>
+            <th>Tarih</th>
+            <th>İşlem</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model)
+        {
+            <tr>
+                <td>@r.User?.FullName</td>
+                <td>@r.User?.Email</td>
+                <td>@r.Class?.Name</td>
+                <td>@r.Class?.Trainer?.FullName</td>
+                <td>@r.Class?.Schedule.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>
+                    <form asp-action="Cancel" asp-controller="Reservation" method="post" style="display:inline">
+                        <input type="hidden" name="id" value="@r.Id" />
+                        <button type="submit" class="btn btn-danger btn-sm">İptal Et</button>
+                    </form>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

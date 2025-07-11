@@ -1,0 +1,43 @@
+﻿@model LoginViewModel
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow-lg rounded-4">
+                <div class="card-body p-4">
+                    <h2 class="text-center mb-4">🔐 Giriş Yap</h2>
+
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    <form asp-action="Login" method="post">
+                        <!-- Kart Numarası -->
+                        <div class="mb-3">
+                            <label asp-for="CardNumber" class="form-label">Kart Numarası</label>
+                            <input asp-for="CardNumber" class="form-control" placeholder="123456789" />
+                            <span asp-validation-for="CardNumber" class="text-danger"></span>
+                        </div>
+
+                        <!-- Şifre -->
+                        <div class="mb-4">
+                            <label asp-for="Password" class="form-label">Şifre</label>
+                            <input asp-for="Password" type="password" class="form-control" placeholder="••••••••" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg">Giriş Yap</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <p class="text-center mt-3">
+                Hesabınız yok mu? <a href="/User/Register">Kayıt Ol</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial"   />
+}

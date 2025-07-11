@@ -1,0 +1,26 @@
+﻿@model Trainer
+
+<h2>Eğitmen Ekle</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label asp-for="FullName"></label>
+        <input asp-for="FullName" />
+        <span asp-validation-for="FullName"></span>
+    </div>
+    <div>
+        <label asp-for="Specialty"></label>
+        <input asp-for="Specialty" />
+        <span asp-validation-for="Specialty"></span>
+    </div>
+    <div>
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description"></textarea>
+        <span asp-validation-for="Description"></span>
+    </div>
+    <button type="submit">Kaydet</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

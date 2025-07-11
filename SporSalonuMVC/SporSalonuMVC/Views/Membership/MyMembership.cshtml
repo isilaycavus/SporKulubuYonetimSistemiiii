@@ -1,0 +1,90 @@
+﻿@model UserMembership
+
+@{
+    ViewData["Title"] = "Üyelik Durumum";
+    var kalanGun = (Model?.EndDate - DateTime.UtcNow)?.Days ?? 0;
+}
+
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold text-dark">Üyelik <span class="text-warning border-bottom border-3 border-warning">Durumum</span></h2>
+        <p class="lead text-muted">Aktif üyeliğinizin detaylarını aşağıda görebilirsiniz.</p>
+    </div>
+
+    @if (Model != null)
+    {
+        <div class="row justify-content-center g-4">
+            <!-- Üyelik Detayları -->
+            <div class="col-lg-6">
+                <div class="card p-4 border-0 shadow-sm rounded-4 animate__animated animate__fadeInLeft bg-white">
+                    <h4 class="text-secondary fw-bold mb-4">Üyelik Detayları</h4>
+                    <ul class="list-unstyled fs-5">
+                        <li><i class="fas fa-calendar-alt me-2 text-info"></i> <strong>Başlangıç Tarihi:</strong> @Model.StartDate.ToShortDateString()</li>
+                        <li><i class="fas fa-calendar-check me-2 text-success"></i> <strong>Bitiş Tarihi:</strong> @Model.EndDate.ToShortDateString()</li>
+                        <li>
+                            <i class="fas fa-credit-card me-2 text-muted"></i> <strong>Ödeme Durumu:</strong>
+                            <span class="badge bg-light-success text-success px-3 py-2 rounded-pill fw-semibold">Ödenmiş</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-user-circle me-2 text-primary"></i> <strong>Hesap Durumu:</strong>
+                            <span class="badge bg-light-primary text-primary px-3 py-2 rounded-pill fw-semibold">Aktif</span>
+                        </li>
+                    </ul>
+
+                    @if (kalanGun <= 15)
+                    {
+                        <div class="alert @(kalanGun <= 3 ? "alert-danger" : "alert-warning") mt-4 animate__animated animate__fadeIn">
+                            <i class="fas fa-bell me-2"></i>
+                            <strong>Uyarı:</strong> Üyeliğinizin bitmesine <strong>@kalanGun gün</strong> kaldı!
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <!-- Üyelik Kartı -->
+           
+                <div class="col-lg-5 d-flex justify-content-center align-items-center">
+                    <div class="text-white text-center p-5 rounded-4 shadow-sm animate__animated animate__zoomIn"
+                         style="background: linear-gradient(135deg, #ff7e5f, #feb47b); min-width: 300px; max-width: 320px;">
+                        <i class="fas fa-running fa-3x mb-4 animate__animated animate__bounceIn animate__slow"></i>
+                        <h4 class="fw-bold mb-1">@Model.Membership?.Name</h4>
+                        <p class="mb-4" style="opacity: 0.85;">Üyelik Paketiniz</p>
+                        <div class="bg-white text-warning rounded-3 py-3 px-4 shadow-sm d-inline-block">
+                            <span class="display-5 fw-bold">@kalanGun</span><br />
+                            <span class="fw-semibold">Gün Kaldı</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+     
+
+        <!-- Butonlar -->
+        <div class="text-center mt-5 animate__animated animate__fadeInUp">
+            <a href="/Membership/Available" class="btn btn-warning btn-lg me-3">
+                <i class="fas fa-th-list me-2"></i> Paketleri Keşfet
+            </a>
+            <a href="/Reservation/MyReservations" class="btn btn-outline-dark btn-lg">
+                <i class="fas fa-calendar-alt me-2"></i> Rezervasyonlarım
+            </a>
+        </div>
+    }
+    else
+    {
+        <!-- Üyelik Yoksa -->
+        <div class="text-center py-5 animate__animated animate__fadeIn">
+            <i class="fas fa-exclamation-circle fa-3x text-muted mb-3"></i>
+            <h4 class="fw-bold text-dark">Aktif Üyeliğiniz Bulunmamaktadır</h4>
+            <p class="text-muted">Sağlıklı yaşam için hemen bir paket seçin.</p>
+            <a href="/Membership/Available" class="btn btn-success btn-lg mt-3">
+                <i class="fas fa-shopping-cart me-2"></i> Şimdi Paket Al
+            </a>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        // Gerekirse dinamik JS işlemleri buraya yazılır.
+    </script>
+}

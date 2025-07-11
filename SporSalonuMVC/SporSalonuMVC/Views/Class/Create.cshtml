@@ -1,0 +1,114 @@
+﻿@model SporSalonuMVC.ViewModels.ClassCreateViewModel
+
+@{
+    ViewData["Title"] = "Ders Ekle";
+}
+
+
+@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+<form asp-action="Create" method="post" style="padding-bottom: 100px;">
+
+    @Html.AntiForgeryToken()
+
+    <!-- Ders Adı -->
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <select asp-for="Name" class="form-select" id="classNameSelect" required>
+            <option value="">-- Ders Türünü Seçin --</option>
+            <option value="Fitness">Fitnes</option>
+            <option value="Yüzme">Yüzme</option>
+            <option value="Yoga">Boks</option>
+            <option value="Pilates">Basketbol</option>
+            <option value="Pilates">Valeybol</option>
+            <option value="Pilates">Plates</option>
+        </select>
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <!-- Eğitmen -->
+    <div class="mb-3">
+        <label asp-for="TrainerId" class="form-label"></label>
+        <select asp-for="TrainerId" class="form-select" id="trainerSelect" required>
+            <option value="">-- Eğitmen Seçin --</option>
+            @foreach (var trainer in Model.AvailableTrainers)
+            {
+                <option value="@trainer.Id" data-specialty="@trainer.Specialty">
+                    @trainer.FullName (@trainer.Specialty)
+                </option>
+            }
+        </select>
+        <span asp-validation-for="TrainerId" class="text-danger"></span>
+    </div>
+
+    <!-- Tarih ve Saat -->
+    <div class="mb-3">
+        <label asp-for="Schedule" class="form-label"></label>
+        <input asp-for="Schedule"
+               type="datetime-local"
+               class="form-control"
+               required
+               min="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" />
+
+        <span asp-validation-for="Schedule" class="text-danger"></span>
+    </div>
+
+    <!-- Açıklama -->
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <!-- Kontenjan -->
+    <div class="mb-3">
+        <label asp-for="Capacity" class="form-label"></label>
+        <input asp-for="Capacity" type="number" class="form-control" min="1" max="100" required />
+        <span asp-validation-for="Capacity" class="text-danger"></span>
+    </div>
+    <div class="mb-5 text-end">
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+    </div>
+</form>
+
+ JavaScript ile Saat Doğrulama (07:00 - 00:00 Arası)
+html
+Kopyala
+Düzenle
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.getElementById("classNameSelect").addEventListener("change", function () {
+            const selectedClass = this.value;
+            const trainerOptions = document.querySelectorAll("#trainerSelect option");
+
+            trainerOptions.forEach(opt => {
+                if (opt.value === "") return opt.hidden = false;
+                const specialty = opt.getAttribute("data-specialty");
+                opt.hidden = selectedClass !== "" && specialty !== selectedClass;
+            });
+
+            // Eğitmen seçimini sıfırla
+            document.getElementById("trainerSelect").value = "";
+        });
+
+        // Saat kontrolü
+        document.querySelector("form").addEventListener("submit", function (e) {
+            const scheduleInput = document.querySelector("input[type='datetime-local']");
+            const selectedDate = new Date(scheduleInput.value);
+
+            if (isNaN(selectedDate)) {
+                alert("Geçerli bir tarih ve saat giriniz.");
+                e.preventDefault();
+                return;
+            }
+
+            const hour = selectedDate.getHours();
+
+            if (hour < 7 && hour !== 0) {
+                alert("Ders saatleri sadece 07:00 ile 00:00 arasında olabilir.");
+                e.preventDefault();
+            }
+        });
+    </script>
+}

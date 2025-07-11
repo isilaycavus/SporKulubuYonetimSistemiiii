@@ -1,0 +1,25 @@
+﻿@model List<UserMembership>
+
+<h2>Tüm Kullanıcı Üyelikleri</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Kullanıcı</th>
+            <th>Paket</th>
+            <th>Başlangıç</th>
+            <th>Bitiş</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.User?.FullName (@item.User?.Email)</td>
+                <td>@item.Membership?.Name</td>
+                <td>@item.StartDate.ToShortDateString()</td>
+                <td>@item.EndDate.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>

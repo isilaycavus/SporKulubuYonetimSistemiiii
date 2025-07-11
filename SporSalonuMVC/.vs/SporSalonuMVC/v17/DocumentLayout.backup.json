@@ -1,0 +1,340 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\views\\membership\\mymembership.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\views\\membership\\mymembership.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\views\\membership\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\views\\membership\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\controllers\\membershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\controllers\\membershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\models\\usermembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\models\\usermembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\models\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\models\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\views\\membership\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\views\\membership\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\views\\membership\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\views\\membership\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\views\\membership\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\views\\membership\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\views\\membership\\available.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\views\\membership\\available.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\views\\membership\\allusermemberships.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\views\\membership\\allusermemberships.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\views\\class\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\views\\class\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|c:\\users\\emirh\\desktop\\stajprojesitasarimdenemesi\\sporsalonumvc\\sporsalonumvc\\views\\trainer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4708CD24-4769-4743-A9D9-D1C85D077034}|SporSalonuMVC\\SporSalonuMVC.csproj|solutionrelative:sporsalonumvc\\views\\trainer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\User\\Profile.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Views\\User\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\User\\Profile.cshtml*",
+              "RelativeToolTip": "SporSalonuMVC\\Views\\User\\Profile.cshtml*",
+              "ViewState": "AgIAAFwAAAAAAAAAAADwv34AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-11T11:38:11.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SporSalonuMVC\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAUwJcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-11T11:02:57.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Available.cshtml",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Membership\\Available.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Views\\Membership\\Available.cshtml",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Membership\\Available.cshtml",
+              "RelativeToolTip": "SporSalonuMVC\\Views\\Membership\\Available.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvzAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T13:20:53.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Membership\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Views\\Membership\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Membership\\Edit.cshtml",
+              "RelativeToolTip": "SporSalonuMVC\\Views\\Membership\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T13:21:18.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Membership\\Index.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Views\\Membership\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Membership\\Index.cshtml",
+              "RelativeToolTip": "SporSalonuMVC\\Views\\Membership\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T12:02:37.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MembershipController.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Controllers\\MembershipController.cs",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Controllers\\MembershipController.cs",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Controllers\\MembershipController.cs",
+              "RelativeToolTip": "SporSalonuMVC\\Controllers\\MembershipController.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAADwv68AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T13:12:14.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyMembership.cshtml",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Membership\\MyMembership.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Views\\Membership\\MyMembership.cshtml",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Membership\\MyMembership.cshtml",
+              "RelativeToolTip": "SporSalonuMVC\\Views\\Membership\\MyMembership.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T13:13:45.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SporSalonuMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAIwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-11T10:12:01.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Membership\\History.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Views\\Membership\\History.cshtml",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Membership\\History.cshtml",
+              "RelativeToolTip": "SporSalonuMVC\\Views\\Membership\\History.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T13:06:57.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserMembership.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Models\\UserMembership.cs",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Models\\UserMembership.cs",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Models\\UserMembership.cs",
+              "RelativeToolTip": "SporSalonuMVC\\Models\\UserMembership.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T10:26:37.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Membership.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Models\\Membership.cs",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Models\\Membership.cs",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Models\\Membership.cs",
+              "RelativeToolTip": "SporSalonuMVC\\Models\\Membership.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T10:27:12.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AllUserMemberships.cshtml",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Membership\\AllUserMemberships.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Views\\Membership\\AllUserMemberships.cshtml",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Membership\\AllUserMemberships.cshtml",
+              "RelativeToolTip": "SporSalonuMVC\\Views\\Membership\\AllUserMemberships.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T13:13:42.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Membership\\Create.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Views\\Membership\\Create.cshtml",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Membership\\Create.cshtml",
+              "RelativeToolTip": "SporSalonuMVC\\Views\\Membership\\Create.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvzMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T13:21:11.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "SporSalonuMVC\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T09:15:14.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Models\\AdminDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Models\\AdminDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Models\\AdminDashboardViewModel.cs",
+              "RelativeToolTip": "SporSalonuMVC\\Models\\AdminDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T09:16:13.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "SporSalonuMVC\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAIwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-11T09:17:22.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Class\\Index.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Views\\Class\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Class\\Index.cshtml",
+              "RelativeToolTip": "SporSalonuMVC\\Views\\Class\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T13:00:12.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClassController.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Controllers\\ClassController.cs",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Controllers\\ClassController.cs",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Controllers\\ClassController.cs",
+              "RelativeToolTip": "SporSalonuMVC\\Controllers\\ClassController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAqwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T12:59:39.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Trainer\\Index.cshtml",
+              "RelativeDocumentMoniker": "SporSalonuMVC\\Views\\Trainer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emirh\\Desktop\\stajprojesitasarimdenemesi\\SporSalonuMVC\\SporSalonuMVC\\Views\\Trainer\\Index.cshtml",
+              "RelativeToolTip": "SporSalonuMVC\\Views\\Trainer\\Index.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T12:03:59.79Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

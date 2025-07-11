@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Kayıt Başarılı";
+}
+
+<div class="container mt-5">
+    <div class="alert alert-success shadow p-4 rounded">
+        <h4 class="alert-heading">🎉 Kayıt Başarılı!</h4>
+        <p class="mb-2">Tebrikler, hesabınız başarıyla oluşturuldu.</p>
+        <p>Aşağıdaki <strong>kart numarası</strong> ile giriş yapabilirsiniz:</p>
+
+        <div class="display-6 text-center text-primary border rounded p-3 bg-light">
+            @ViewBag.CardNumber
+        </div>
+
+        <hr />
+        <p class="mb-0 text-center">
+            <a href="/User/Login" class="btn btn-outline-primary mt-3">Giriş Yap</a>
+        </p>
+    </div>
+</div>
